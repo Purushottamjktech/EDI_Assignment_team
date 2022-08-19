@@ -1,0 +1,11 @@
+<div>
+    <div style="background-color: lightseagreen; width: 50%; height: 700px; float:left;">
+      <label for="myfile" style="font-size:larger;margin-left: 10px;padding: 10px;"><b>Select a json file: </b></label>
+      <input type="file" (change)="onChange($event)">
+        <pre> {{fileContent}} </pre>
+      <button class="btn btn-success m-3" style="margin-right: 50px ;" >Load Json</button>
+    </div>
+    <div style="background-color: lightgrey; width:50%; height: 700px; float:left; text-align: center;">
+      <button class="btn btn-success m-3" style="margin-right: 50px ;">click here to see EDI Data</button>
+    </div>
+  </div>
